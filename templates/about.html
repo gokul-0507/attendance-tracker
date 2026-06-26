@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | Attendance Tracker</title>
+  <!-- Bootstrap + Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="/">📊 Attendance Tracker</a>
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="/report">Reports</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<header class="text-center py-5 bg-light">
+  <h1 class="fw-bold display-5 text-dark">Why We Exist</h1>
+  <p class="lead text-muted">We believe attendance is more than tracking hours — it’s about empowering people, building trust, and shaping culture.</p>
+</header>
+
+<div class="container my-5">
+
+  <!-- Origin Timeline -->
+  <section class="mb-5">
+    <h3 class="fw-bold mb-3">Our Journey</h3>
+    <ul class="list-group">
+      <li class="list-group-item"><strong>2018:</strong> Started as a small student project in a garage.</li>
+      <li class="list-group-item"><strong>2020:</strong> First enterprise deployment with 1,000+ employees.</li>
+      <li class="list-group-item"><strong>2023:</strong> Expanded globally with offices in 5 countries.</li>
+      <li class="list-group-item"><strong>2026:</strong> Trusted by multinational corporations worldwide.</li>
+    </ul>
+  </section>
+
+  <!-- Leadership & Team -->
+  <section class="mb-5">
+    <h3 class="fw-bold mb-3">Meet Our Team</h3>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h6 class="fw-bold">Jane Smith</h6>
+        <p class="text-muted">Founder & CEO</p>
+      </div>
+      <div class="col-md-4">
+        <h6 class="fw-bold">Mark Johnson</h6>
+        <p class="text-muted">Chief Technology Officer</p>
+      </div>
+      <div class="col-md-4">
+        <h6 class="fw-bold">Sarah Lee</h6>
+        <p class="text-muted">Chief Financial Officer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact & ESG Metrics -->
+  <section class="mb-5">
+    <h3 class="fw-bold mb-3">Our Global Impact</h3>
+    <div class="row text-center">
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <h6>Lives Impacted</h6>
+          <span class="fs-4 fw-bold text-primary">10M+</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <h6>Global Offices</h6>
+          <span class="fs-4 fw-bold text-success">5 Countries</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <h6>Diversity Ratio</h6>
+          <span class="fs-4 fw-bold text-warning">48% Women</span>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card shadow-sm p-3">
+          <h6>Renewable Energy</h6>
+          <span class="fs-4 fw-bold text-danger">100%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer class="text-center py-3 bg-white shadow-sm">
+  <small class="text-muted">© 2026 Attendance Tracker • Building trust through transparency</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

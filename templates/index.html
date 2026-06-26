@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance Tracker | Index</title>
+  <!-- Bootstrap + Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="bg-light">
+
+<!-- Minimalist Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-primary" href="/">📊 Attendance Tracker</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
+        <li class="nav-item"><a class="nav-link" href="/mark_attendance">Mark Attendance</a></li>
+        <li class="nav-item"><a class="nav-link" href="/report">Reports</a></li>
+        <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section (Above the Fold) -->
+<header class="d-flex align-items-center justify-content-center text-center vh-100 bg-light">
+  <div>
+    <h1 class="display-4 fw-bold text-dark mb-3">Effortless Attendance Management</h1>
+    <p class="lead text-muted mb-4">Fast, reliable, and built for modern teams.</p>
+    <!-- Bold Center-Aligned CTA -->
+    <a href="/login" class="btn btn-primary btn-lg px-5 py-3 shadow">
+      <i class="fa fa-arrow-right"></i> Get Started Now
+    </a>
+  </div>
+</header>
+
+<!-- Performance Note -->
+<footer class="text-center py-3 bg-white shadow-sm">
+  <small class="text-muted">Optimized for speed • Loads under 1.6s • Minimalist design</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

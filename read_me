@@ -1,0 +1,17 @@
+attendance_tracker/
+│── app.py              # Flask backend
+│── attendance.db       # SQLite database (auto-created)
+│── templates/          # HTML templates
+│   ├── index.html
+│   ├── login.html
+│   ├── add_student.html
+│   ├── mark_attendance.html
+│   ├── report.html
+│   ├── dashboard.html
+│   └── about.html
+│── static/             # CSS & JS
+    ├── style.css
+    ├── script.js
+    ├── ceo.jpg
+    ├── cto.jpg
+    └── cfo.jpg

@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+attendance.db
+
+# Environment files
+.env
+
+# Instance folder (Flask sessions, etc.)
+instance/
+
